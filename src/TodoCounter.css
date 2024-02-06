@@ -1,0 +1,9 @@
+h1 {
+    display: inline-block;
+    font-size: 20px !important;
+    text-align: 'center';
+    margin: 10%;
+    padding: 1em;
+    color: #929292;
+    font-weight: 300;
+}

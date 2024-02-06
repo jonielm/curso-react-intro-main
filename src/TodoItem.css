@@ -1,0 +1,70 @@
+li {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    margin: 5px auto;
+    width: 90%;
+    padding: 0px;
+    grid-template-columns: 1fr 10fr 1fr;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+span {
+    display: contents;
+    cursor: pointer;
+    padding: 15px 40%;
+    font-weight: 600;
+}
+
+p {
+    font-size: 14px;
+    color: #6c7a89;
+}
+.ItemText--active{
+   text-decoration: line-through;
+}
+
+li:hover {
+    background-color: lightgray;
+    color:white;
+    transform: 0.5s;
+}
+
+.check-item{
+    cursor: pointer;
+}
+
+.close-item {
+    cursor: pointer;
+}
+
+.check-item:hover {
+    background-color: mediumaquamarine;
+}
+
+.close-item:hover {
+    background-color: lightcoral;
+}
+
+.icon-check--active { 
+    color:rgb(96, 205, 96);
+}
+
+.icon-check{
+    width: 50px;
+    height: 80px;
+}
+.icon-closed{
+    color: black;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 20
+  }

@@ -1,0 +1,23 @@
+input {
+ display:grid;
+ width:90%;
+ height:3em;
+ text-align: center;
+ margin: 0 auto;
+ border-radius: 5px;
+ border-color: lightgray;
+ background-color: white;
+ border: solid lightgray 2px;
+ color:darkslategrey;
+ font-size: 1em;
+}
+
+input:focus{
+    display:grid;
+    width:90%;
+    height:3em;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #eaffea;
+    border: 0px;
+}
