@@ -1,0 +1,39 @@
+.check-item{
+    cursor: pointer;
+}
+
+.close-item {
+    cursor: pointer;
+}
+
+.check-item:hover {
+    background-color: mediumaquamarine;
+}
+
+.close-item:hover {
+    background-color: lightcoral;
+}
+
+.icon-check--active { 
+    color:rgb(96, 205, 96);
+}
+
+.icon-check{
+    width: 50px;
+    height: 80px;
+}
+.icon-closed{
+    color: black;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 20
+  }
+
+  .Icon-svg{
+    width:24px;
+    height: 24px;
+  }
